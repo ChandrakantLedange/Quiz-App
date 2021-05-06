@@ -85,7 +85,7 @@
 }
 .option {
   background-color: #fff;
-  width: 300px;
+  width: 400px;
   padding: 15px 20px;
   margin-bottom: 20px;
   border-radius: 100px;
@@ -109,4 +109,22 @@
   color: darkcyan;
   cursor: pointer;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* option active  */
+.active {
+  background-color: darkcyan;
+  color: #fff !important;
+}
+.award_icon {
+  font-size: 400px;
+  color: #fff;
+}
+.user_name,
+.user_points,
+.user_time {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
 }

@@ -13,20 +13,22 @@
       <div class="quiz">
         <div class="quiz_header">
           <div class="quiz_user">
-            <h4>Welcome chandu</h4>
+            <h4>Welcome!<span class="name"></span></h4>
           </div>
           <div class="quiz_timer">
             <span class="time">00:00</span>
           </div>
         </div>
         <div class="quiz_body">
-          <h2>Q1. What is the full-form of RAM ?</h2>
-          <ul class="option_group">
-            <li class="option">option1</li>
-            <li class="option">option1</li>
-            <li class="option">option1</li>
-            <li class="option">option1</li>
-          </ul>
+          <div id="questions">
+            <!-- <h2>Q1. What is the full-form of RAM ?</h2>
+            <ul class="option_group">
+              <li class="option">option1</li>
+              <li class="option">option1</li>
+              <li class="option">option1</li>
+              <li class="option">option1</li>
+            </ul> -->
+          </div>
           <button class="btn_next" onclick="next_question()">
             Next Question
           </button>
@@ -35,5 +37,11 @@
     </div>
     <!-- quiz.css -->
     <script src="./dist/js/quiz.js"></script>
+
+    <!-- userinfo.js -->
+    <script src="./dist/js/userinfo.js"></script>
+
+    <!-- timer.js -->
+    <script src="./dist/js/timer.js"></script>
   </body>
 </html>
